@@ -5,8 +5,8 @@ body{
 .grid-one{
     display: grid;
     grid-gap: 24px;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 4fr;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 2fr ;
     width: 1440px;
     height: 900px;
 }
@@ -58,5 +58,30 @@ body{
     height: 122px;
     flex-shrink: 0;
     background: #BFD200;
-    /* margin-top: -289px; */
+    margin-top: -289px;
 }
+
+ 
+.rec-seven{
+    width: 448px;
+    height: 122px;
+    flex-shrink: 0;
+    background: #DDDF00;
+}
+ .rec-eight{
+    width: 448px;
+    height: 122px;
+    background: #EEEF20;
+    grid-row: 2/4;
+    grid-column: 3/3;
+    margin-top: -80px;
+ }
+
+ .rec-nine{
+    width: 448px;
+    height: 122px;
+    background: #FFFF3F;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    margin-top: -169px;
+ }
