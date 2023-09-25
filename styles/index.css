@@ -5,8 +5,8 @@ body{
 .grid-one{
     display: grid;
     grid-gap: 24px;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 2fr ;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 4fr ;
     width: 1440px;
     height: 900px;
 }
@@ -58,7 +58,7 @@ body{
     height: 122px;
     flex-shrink: 0;
     background: #BFD200;
-    margin-top: -289px;
+    /* margin-top: -289px; */
 }
 
  
@@ -74,7 +74,7 @@ body{
     background: #EEEF20;
     grid-row: 2/4;
     grid-column: 3/3;
-    margin-top: -80px;
+    /* margin-top: -80px; */
  }
 
  .rec-nine{
@@ -83,5 +83,15 @@ body{
     background: #FFFF3F;
     grid-row: 3/4;
     grid-column: 3/4;
-    margin-top: -169px;
+    /* margin-top: -169px; */
+ }
+
+ .rec-ten{
+    width: 212px;
+height: 268px;
+flex-shrink: 0;
+    background: #007F5F;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    /* margin-left: 230px; */
  }
