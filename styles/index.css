@@ -63,23 +63,22 @@ body{
   
     background: #EEEF20;
     grid-row: 3/5;
-    grid-column: 7/3;
+    grid-column: 5/7;
    
  }
 
  .rec-nine{
    
     background: #FFFF3F;
+    grid-column: 5/7;
     grid-row: 5/7;
-    grid-column: 3/5;
   
  }
 
  .rec-ten{
-
     flex-shrink: 0;
     background: #007F5F;
-    grid-row: 3/4;
-    grid-column: 3/4;
+    grid-row: 7/11;
+    grid-column: 6/7;
     
  }
